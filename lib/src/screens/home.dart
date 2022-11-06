@@ -6,7 +6,9 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: const Center(child: Text('ホーム', style: TextStyle(fontSize: 32.0))),
+      body: Center(
+        child: Image.asset('img/IMG_4864.png'),
+      ),
     );
   }
 }

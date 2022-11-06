@@ -5,9 +5,8 @@ class AccountScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: const Center(
-          child: Text('アカウント画面', style: TextStyle(fontSize: 32.0))),
+    return const Scaffold(
+      body: Center(child: Text('アカウント画面', style: TextStyle(fontSize: 32.0))),
     );
   }
 }
